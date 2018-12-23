@@ -1,0 +1,7 @@
+function edit()
+{
+	console.log("clicked")
+		document.getElementById('maincontent').innerHTML ="
+		<form onsubmit=return validate(); name=register method=post action=val.php><div id=regroup><div id=inp>Roll No<input type=text required name=roll maxlength=9 placeholder=CS20B1020 autofocus pattern=^(ME|CS|EC|EE|CE)[1-2][0-9][B|M]\d{4}$ title=Roll should be valid and in uppercase ></div>		<div id=inp>Name <input type=text name=name placeholder=Name required pattern=^[A-Za-z\s]*$ title=numbers and symbols are not allowed ></div>		<div id=dob>DOB <input type=date name=dob required ></div>		<div id=dep>Department <select name=dept required>			<option hidden disabled selected value>select</option>			<option>CSE</option>			<option>ECE</option>			<option>EEE</option>			<option>ME</option>			<option>CE</option>		</select></div>		<div id=inp>Year <select name=year required>			<option hidden disabled selected value>select</option>			<option>1</option>			<option>2</option>			<option>3</option>			<option>4</option>		</select></div>		<div id=inp>Email <input type=email name=email placeholder=abc@gmail.com required=></div>	<div id=inp>Mobile <input type=text name=mobile placeholder=0000000000 maxlength=10 pattern=^[0-9]{10}$ required ></div>		<input class=rbut register type=submit name=Submit value=Register>";	
+		//document.getElementById('maincontent').innerHTML="";
+	}

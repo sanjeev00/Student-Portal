@@ -1,0 +1,190 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body,html
+{
+	height: 100%;
+
+}
+#big
+{
+	height: 100%;
+}
+#bodywrap
+{
+	
+}
+#headwrapper
+{
+position: fixed;
+top:0px;
+background-color: #ececec;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+display:flex;
+flex-direction: row; 
+min-height: 80px;
+align-items: center;
+width: 100%;
+}
+.logo
+{
+	padding-left: 10px;
+	font-family:Tahoma;
+	color:#145e98;
+}
+.items
+{
+	display: flex;
+	flex-grow: 2;
+	justify-content: flex-end;
+	align-items: center;
+}
+#contentwrapper
+{
+	margin-top: 70px;
+	display:flex;
+	flex-wrap: wrap;
+	height: 100%;
+	flex-direction: row;
+}	
+
+#logoutbut
+{
+	padding: 10px;
+	margin-right: 10px;
+	background-color: #ffffff00;
+	border:none;
+	font-size:16px;
+	color:#145e98;
+	font-family: Tahoma;
+	font-weight: bold;
+}
+#sidebar
+{
+	
+	max-width: 250px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#maincontent
+{
+	flex-grow: 3;
+	padding: 20px;
+}
+#maincontent2
+{
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+	padding: 20px;
+}
+#sidebar img
+{
+	padding: 20px;
+}
+#maincontent p
+{
+padding: 2vh;
+
+font-family: tahoma;
+font-size: 16pt;
+
+}
+span
+{
+	color:#5eda00;
+}
+#foot
+{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+}
+input[type=text],input[type=password],input[type=email],input[type=date]
+{
+	padding: 5px 0px;
+    
+}
+select
+{
+	
+	padding: 2px;
+	margin:  10px 5px;
+	width: 100px
+}
+#inp,#dept,#dob
+{
+	
+	margin-right: 90px;
+	font-family:  Tahoma;
+	display:grid;
+}
+.register
+{
+background-color: #145e98;
+font-size: 16px;
+color:white;
+
+border: 2px solid #145e98;
+
+font-family: Tahoma;
+
+}
+.register:hover
+{
+	border: 2px solid ##145e98;
+	background-color: white;
+	color:#145e98;
+}
+.rbut
+{
+	border-radius: 5px;
+	width: 100px;
+	padding: 5px 5px;
+}
+#logonav
+{
+	color:#145e98;
+	text-decoration:none;
+}
+#logonav:hover
+{
+	color:#145e98;
+}
+.search button
+{
+	margin-top:8px;
+	padding:0px;
+	border: 0px;
+}
+.person
+{
+	display:flex;
+	justify-content: center;
+	flex-direction: row;
+	padding-bottom: 20px;
+}
+#det
+{
+	background-color: #f2f2f287;
+	margin-left: 20px;
+	padding-right: 200px;
+}
+#det > p
+{
+	font-size: 15px;
+	padding: 6px;
+	font-family:Arial;
+}
+#det >a
+{
+	text-decoration: none;
+	font-size:20px;
+}
+.search
+{
+	padding-right: 45px;
+}
